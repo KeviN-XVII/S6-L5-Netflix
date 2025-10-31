@@ -1,0 +1,16 @@
+@import './scss/functions';
+@import './scss/variables';
+
+$secondary:#666666;
+$info:#E0E0E0;
+$link:#006cf8;
+
+$new-theme-colors: (
+    "secondary": $secondary,
+    "info": $info,
+    "link": $link
+);
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+
+@import './scss/bootstrap.scss';
