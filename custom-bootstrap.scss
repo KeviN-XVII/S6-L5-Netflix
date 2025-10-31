@@ -9,8 +9,11 @@ $new-theme-colors: (
     "secondary": $secondary,
     "info": $info,
     "link": $link
+
 );
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
 
+$btn-padding-y:0.5rem;
+$btn-padding-x:2rem;
 
 @import './scss/bootstrap.scss';
